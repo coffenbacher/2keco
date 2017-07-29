@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add moment
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\Python36\Scripts\;C:\Python36\;C:\ProgramData\Boxstarter;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Yarn\bin;C:\Users\charlie\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Docker Toolbox;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\charlie\AppData\Roaming\npm;C:\Users\charlie\AppData\Local\Yarn\bin
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  8.2.1
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "2keco",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "custom-react-scripts": "0.0.23",
+      "mobx-react": "^4.2.2",
+      "react": "^15.6.1",
+      "react-dom": "^15.6.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/babel-core: ETIMEDOUT
+      at Timeout._onTimeout (C:\Program Files (x86)\Yarn\lib\yarn-cli.js:114906:19)
+      at ontimeout (timers.js:469:11)
+      at tryOnTimeout (timers.js:304:5)
+      at Timer.listOnTimeout (timers.js:264:5)

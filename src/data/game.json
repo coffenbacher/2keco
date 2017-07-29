@@ -1,0 +1,8 @@
+{
+    "speeds": [
+        {"name": "default", "value": 1.5},
+        {"name": "fast", "value": 3},
+        {"name": "drill", "value": 9},
+        {"name": "simulation", "value": 100}
+    ]
+}
